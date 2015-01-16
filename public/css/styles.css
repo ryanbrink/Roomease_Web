@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	background:url(../img/bg.jpg) repeat-x;
+	background-color:#43b1ff;
+}
+
+body {
+		background-color:#43b1ff;
+		font-size:15px;
+}
+
+#social{
+	width:140px;
+	height:45px;
+	background:#FFF;
+	border-radius:5px;
+	margin:0 auto;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+span.st_facebook_large{
+	position:relative;
+	top:6px;
+}
+
+span.st_twitter_large{
+	position:relative;
+	top:6px;
+}
+
+span.st_pinterest_large{
+	position:relative;
+	top:6px;
+}
+
+#wrapper {
+	width:80%;
+	max-width:900px;
+	margin:0 auto;
+	margin-top:30px;
+	padding-left:80px;
+}
+
+#leftContainer{
+	width:30%;
+	display:block;
+	float:left;
+}
+
+#leftContainer img{
+	width:100%;
+}
+
+#rightContainer{
+	width:50%;
+	margin-left:30px;
+	margin-top:60px;
+	float:left;
+}
+
+#logo img{
+	width:100%;
+}
+
+#form{
+	min-width:50%;
+	margin-top:10px;
+}
+
+.blurb{
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.2em;
+	text-align:justify;
+}
+
+#mc_embed_signup {
+	background:none;
+	left:0;
+	clear:left;
+	margin-top:10px;
+	font:14px Helvetica, Arial, sans-serif;
+}
+#mc_embed_signup input.email {
+	display:block;
+	padding:8px 0;
+	text-indent:5px;
+	width:100%;
+	min-width:130px;
+	color:#0066CC;
+
+}
+#mc_embed_signup input.button {
+	display:block;
+	width:35%;
+	margin:10px 0 10px 0;
+	min-width:90px;
+	margin:0 auto;
+}
+input[type=submit] {
+	width:100px;
+	margin-top:10px;
+	padding:5px 15px;
+	background:#ccc;
+	font:Arial, Helvetica, sans-serif !important;
+	color:#666 !important;
+	border:1px solid #666 !important;
+	text-transform:uppercase !important;
+	cursor:pointer;
+	border-radius: 5px !important;
+	background-image: -webkit-gradient(  linear,  left top,  left bottom,  color-stop(0, #999999),  color-stop(1, #FFFFFF) );
+	background-image: -o-linear-gradient(bottom, #999999 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #999999 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #999999 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #999999 0%, #FFFFFF 100%);
+	background-image: linear-gradient(to bottom, #999999 0%, #FFFFFF 100%);
+}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+@media all and (max-width: 1050px){
+	html{
+		background:none;
+	}
+}
+
+
+@media all and (max-width: 750px){
+	
+#wrapper{
+		width:80%;
+		max-width:700px;
+		margin:0 auto;
+		margin-bottom:50px;
+		padding-left:0px;
+}
+
+#leftContainer{
+	display:none;
+}
+#rightContainer{
+	width:90%;
+	margin-top:0px;
+}
+}
+
+@media all and (max-width: 460px){
+	#wrapper{
+		width:80%;
+		margin:0 auto;
+		margin-bottom:40px;
+	}
+	
+	#rightContainer{
+		width:90%;
+		margin:0 0 50px 20px;
+	}
+
+	#logo img{
+		width:100%;
+	}
+	
+	.blurb {
+		font-size:1em;
+		text-align:left;
+	}
+}
